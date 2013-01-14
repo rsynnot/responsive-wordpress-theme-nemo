@@ -15,5 +15,20 @@ If you have any comments, suggestions, or feedback, please feel free to email me
 
 Email:  ricky@itsricky.com
 
+
+Project Specifics
+===============================
+1. This is a theme for Wordpress http://wordpress.org
+2. I used the Bones template as a starting point http://themble.com/bones/
+3. All editing was done in Coda http://panic.com/coda/
+3. I took Eddie Machado's advice and wrote the css in SASS
+4. I compiled it all using Scout http://mhs.github.com/scout-app/
+5. And uploaded the files using Transmit http://panic.com/transmit/
+6. It's hosted on a MediaTemple DV 4.0 server
+7. And as above, it's a work in progress!  I'll be updaing this repo in-frequently, but as I achive milestones on the website, I'll mirror what's going on here.
+8. The best result from this initiative is if it sparks a dialogue, so please feel free to contact me if you would like to discuss anything.
+9. This work is not all mine, but for all code that is not present in the Bones Theme () I claim Copyright for this work.  It may be used for personal use, research and training, but may not be used in a commercial environment without permission from me.
+
+
 Ricky Synnot
 Melbourne, Australia
