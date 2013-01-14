@@ -1,0 +1,210 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Tablet & Small Desktop Stylesheet
+
+Here's where you can start getting into the good stuff.
+This size will work on iPads, other tablets, and desktops.
+So you can start working with more styles, background images,
+and other resources. You'll also notice the grid starts to
+come into play. Have fun!
+
+******************************************************************/
+
+
+/*********************
+GENERAL STYLES
+*********************/
+
+body {}
+
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+
+.wrap {
+	max-width: 1140px;
+}
+
+/*********************
+HEADER SYTLES
+*********************/
+
+.header {}
+
+	#logo {}
+
+
+
+/*********************
+NAVIGATION STYLES
+*********************/
+.mob-nav { margin-right: 2%; }
+.nav {
+	
+	
+
+	li {
+		float: left;
+		position: relative;
+
+		a {
+			border-bottom: 0;
+
+			/*
+			you can use hover styles here even though this size
+			has the possibility of being a mobile device.
+			*/
+			&:hover, &:focus {
+				
+
+			}
+		}
+
+		&:first-child {}
+		&:last-child {}
+
+		/*
+		plan your menus and drop-downs wisely.
+		*/
+		ul.sub-menu,
+		ul.children {
+			width: 200px;
+			
+			
+			position: absolute;
+			display: none;
+			z-index: 8999;
+
+			li {
+
+				a {
+					padding-left: 10px;
+					
+					display: block;
+					width: 180px;
+					
+
+					&:hover,
+					&:focus {}
+
+					&:link {}
+				}
+
+				&:first-child {}
+
+				&:last-child {
+
+					a {
+						
+					}
+				}
+
+				/*
+				if you need to go deeper, go nuts
+				just remember deeper menus suck
+				for usability. k, bai.
+				*/
+				ul {}
+			}
+
+			/* highlight sub-menu current page */
+			li.current-menu-item,
+			li.current_page_item,
+			li.current-page-ancestor {
+				a {}
+			}
+		}
+
+		/* showing sub-menus */
+		&:hover ul {
+			top: auto;
+			display: block;
+		}
+
+	} /* end .menu ul li */
+
+	/* highlight current page */
+	li.current-menu-item,
+	li.current_page_item,
+	li.current-page-ancestor {
+		a {}
+	}  /* end current highlighters */
+
+} /* end .nav */
+
+
+.in-wrap {margin: 0 auto; width: 94%; }
+
+/*********************
+CONTENT STYLES
+*********************/
+
+
+
+.archive-title {margin-left:0; }
+.blog-special {margin-left:$indent-tablet; }
+.single-title {  margin-left: $indent-tablet; width:78%; }
+
+.entry-content {
+	.post-text { width:70%;  margin-left: $indent-tablet; }
+	
+	
+}
+.single-header {
+	margin-top: 3em; 
+	p.byline { margin-left: $indent-tablet; }
+	
+}
+
+.big-gal {width:100%;  
+	li { text-align: center; }
+	
+}
+
+#content {
+	 width:104%; clear:both;  float: left;  
+	.work-header {  margin:0 auto; padding-right: 2%;  }
+	
+		.mywork {  margin:0 2% 2em 0; 
+		.work-header { width: 100%; margin:0.9em 0 0 0; padding-right: 0%;  text-align: left;   }
+	
+		
+	}
+	.mybio {text-align: center; 
+		
+		p {max-width: 20em; margin:0 auto; margin-top: 1em;  margin-bottom: 0.6em; }
+	}
+	
+	.blog-article { border-bottom:1px solid #c4c4c4; margin-bottom: 2em;  }
+	.cat-article { width:68%; margin-left: $indent-tablet;   }
+}
+
+
+
+/*********************
+FOOTER STYLES
+*********************/
+
+/*
+you'll probably need to do quite a bit
+of overriding here if you styled them for
+mobile. Make sure to double check these!
+*/
+.footer-links {
+	ul {
+		li {
+			a {
+				&:hover {}
+			}
+			/*
+			be careful with the depth of your menus.
+			it's very rare to have multi-depth menus in
+			the footer.
+			*/
+			ul {}
+		}
+	}
+} /* end .footer-links */
+

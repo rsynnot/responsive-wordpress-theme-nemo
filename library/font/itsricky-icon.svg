@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>
+Created by FontForge 20100429 at Thu Jan 10 01:03:20 2013
+ By root
+Copyright (C) 2012 by original authors @ fontello.com
+</metadata>
+<defs>
+<font id="itsricky-icon" horiz-adv-x="364" >
+  <font-face 
+    font-family="itsricky-icon"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1000"
+    panose-1="2 0 6 3 0 0 0 0 0 0"
+    ascent="850"
+    descent="-150"
+    bbox="14 -7 872 797"
+    underline-thickness="50"
+    underline-position="-100"
+    unicode-range="U+2630-F0C9"
+  />
+<missing-glyph 
+d="M33 0v666h265v-666h-265zM66 33h199v600h-199v-600z" />
+    <glyph glyph-name=".notdef" 
+d="M33 0v666h265v-666h-265zM66 33h199v600h-199v-600z" />
+    <glyph glyph-name=".null" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="nonmarkingreturn" horiz-adv-x="333" 
+ />
+    <glyph glyph-name="uni2630" unicode="&#x2630;" horiz-adv-x="730" 
+d="M665 400q21 0 35.5 -15t14.5 -35t-15.5 -35t-34.5 -15h-600q-19 0 -34.5 15t-15.5 35t14.5 35t35.5 15h600zM65 500q-19 0 -34.5 15t-15.5 35t14.5 35t35.5 15h600q21 0 35.5 -15t14.5 -35t-15.5 -35t-34.5 -15h-600zM665 200q21 0 35.5 -15t14.5 -35t-15.5 -35
+t-34.5 -15h-600q-19 0 -34.5 15t-15.5 35t14.5 35t35.5 15h600z" />
+    <glyph glyph-name="uniE782" unicode="&#xe782;" horiz-adv-x="848" 
+d="M835 605h-602v192h602v-192zM835 305h-602v191h602v-191zM150 701.5q0 -27.5 -20 -48t-48 -20.5t-48 20.5t-20 48t20 48t48 20.5t48 -20.5t20 -48zM835 3h-602v192h602v-192zM150 400q0 -29 -20 -48.5t-48 -19.5t-48 19.5t-20 48.5t20 48.5t48 19.5t48 -19.5t20 -48.5z
+M150 98q0 -27 -20 -47.5t-48 -20.5t-48 20.5t-20 48t20 48.5t48 21t48 -21t20 -49z" />
+    <glyph glyph-name="uniF0C9" unicode="&#xf0c9;" horiz-adv-x="887" 
+d="M51 -7q-14 0 -25 11t-11 25v71q0 14 11 25t25 11h785q14 0 25 -11t11 -25v-71q0 -14 -11 -25t-25 -11h-785zM51 279q-14 0 -25 10.5t-11 24.5v72q0 14 11 24.5t25 10.5h785q14 0 25 -10.5t11 -24.5v-72q0 -14 -11 -24.5t-25 -10.5h-785zM15 600v71q0 14 11 25t25 11h785
+q14 0 25 -11t11 -25v-71q0 -14 -11 -25t-25 -11h-785q-14 0 -25 11t-11 25z" />
+  </font>
+</defs></svg>

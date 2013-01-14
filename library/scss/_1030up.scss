@@ -1,0 +1,88 @@
+/******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: Desktop Stylsheet
+
+This is the desktop size. It's larger than an iPad so it will only
+be seen on the Desktop. 
+
+******************************************************************/
+
+.header { width:100%; height: 6em; background-color: $baby;  }
+
+	#logo { font-weight: 600; margin-top:1.9em;  clear: left; width:30%;  float:left; 
+		
+		a {text-decoration: none; color: $black; }
+		a:hover {text-decoration: underline;}
+	} 
+	
+h3.sub-header {font-size: 1.4em; font-weight: 600; text-transform: uppercase; color: #acacac; margin-left:-2%; margin-bottom:2em; }
+
+.my-nav { clear:right; float: right; }
+.mob-nav {display: none; visibility: hidden; }
+.top-nav {    display: inline-block;  width:auto;    background-color: none; background: none; float: right; text-align: right;  }
+
+.nav {  
+	 
+	li {	
+		padding:1em 1em; display: inline; width:auto; background-color: none; 
+		border:none; border:0; margin-top: 0px !important;  
+		a {
+			display: inline; text-decoration: none; font-weight: 300; text-align: right; font-size: 1.1em; 
+			  color: $footerbg;  background-color: none; 
+		
+			  &:hover, &:focus {
+					text-decoration: underline; color: $footercopy; 
+			}
+			}
+		}
+}
+
+
+
+
+.in-wrap { margin:0 auto; width: 93%; }
+
+
+
+.archive-title { margin-left:0; }
+.blog-special { margin-left:20%; }
+.single-title  {margin-left:$indent-desktop; width:70%; }
+
+.single-header {
+	p.byline { margin-left: $indent-desktop; }
+	
+}
+
+
+
+.entry-content {
+	.post-text { width:68%; max-width: 550px;   margin-left: $indent-desktop; }
+	
+	
+}
+
+
+
+
+
+#content {
+	margin-top: 2.8em; width:100%; clear:both;  float: left; 
+	
+	.introbg { background-color: inherit;   }
+	.mywork { float:left; clear: none;  width:31%;  margin:0 2% 2em 0;
+		
+	}
+	.mybio { 
+		
+		p {max-width: 20em; margin:0 auto; margin-top: 0.6em;  margin-bottom: 0.4em; }
+	}
+	
+	.blog-article { border-bottom:1px solid #c4c4c4; margin-bottom: 2em;  }
+	.cat-article { width: 60%; margin-left: 20%;  }
+}
+
+
+.footer-nav {display: none; }
+
