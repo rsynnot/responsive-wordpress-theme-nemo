@@ -9,7 +9,7 @@ Whatever is here, is live at http://www.itsricky.com
 
 It's a responsive theme where I'll trial various responsive methods over time, so it's a work in progress.
 
-After seeking Eddie Machado's permission (he is the original author of the Bones theme framework on which this is built), I am happy to share this theme with the dev community.
+After seeking Eddie Machado's permission (he is the original author of the Bones theme framework on which this is built), I am happy to share this theme with the dev community.  This guy's a legend: http://eddiemachado.com 
 
 If you have any comments, suggestions, or feedback, please feel free to email me, or comment here on the project.
 
