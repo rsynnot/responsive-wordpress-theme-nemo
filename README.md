@@ -30,5 +30,8 @@ Project Specifics
 9. This work is not all mine, but for all code that is not present in the Bones Theme () I claim Copyright for this work.  It may be used for personal use, research and training, but may not be used in a commercial environment without permission from me.
 
 
+Go forth and conquer!
+
+
 Ricky Synnot
 Melbourne, Australia
