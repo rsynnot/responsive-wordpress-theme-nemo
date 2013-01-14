@@ -1,7 +1,7 @@
-responsive-wordpress-theme-nemo
-===============================
-
 Responsive Wordpress Theme 'Nemo' 
+===============================
+responsive-wordpress-theme-nemo
+
 
 This is a theme that Im currently developing for my portfolio.
 
