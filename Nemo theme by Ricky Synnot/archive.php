@@ -41,8 +41,11 @@
 					    	    <span><?php _e("Yearly Archives:", "bonestheme"); ?></span> <?php the_time('Y'); ?>
 					        </h1>
 					    <?php } ?>
-
-
+					    
+					    <?php if (!is_category(5)){   ?>
+					    	<div id="iso-container"> 
+					    <?php } ?>
+					    
 					    <!-- Now run the loop -->
 					    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -50,7 +53,7 @@
 					    <?php if (is_category(5)){   ?>
 							
 					    	<article id="post-<?php the_ID(); ?>" class="clearfix  cat-article"  role="article">										
-					    	<div class="blog-article ">
+					    	<div class="blog-article clearfix ">
 							<header class="article-header">
 								<h3 class="h2 category-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
 								<p class="byline vcard"><?php _e("", "bonestheme"); ?> <time class="updated" datetime="<?php echo the_time('Y-m-j'); ?>" pubdate><?php the_time('l jS F, Y'); ?></time> </p>
@@ -69,9 +72,9 @@
 						<?php } else {   ?>
 					    
 
-					     <div class="mywork " >    
+					     <div class="mywork mymasonry clearfix" >    
 							<a class="thumbnail" href="<?php the_permalink(); ?>">
-							<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'cat-thumb' ); } ?></a>
+							<?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'blog-thumb' ); } ?></a>
 							
 							<header class="work-header">
 							<h3 class="work-title"><a class="ajax" href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
@@ -92,7 +95,17 @@
 
 					
 					    <?php endwhile; ?>	
-					
+					    
+					    <?php if (!is_category(5)){   ?>
+					    	</div><!-- end iso-container -->
+					    <?php }; ?>	
+					    
+					    	<div class="traverse-nav ">
+					    		<p><?php posts_nav_link('','Previous page','More posts &rarr;'); ?> </p>
+					    	</div>
+
+					    
+					    
 					        <?php if (function_exists('bones_page_navi')) { ?>
 						        <?php bones_page_navi(); ?>
 					        <?php } else { ?>

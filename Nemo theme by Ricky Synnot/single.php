@@ -47,7 +47,8 @@
 										   'numberposts' => -1,
 										   'post_status' => null,
 										   'order'=> 'ASC', 'orderby' => 'title',
-										   'post_parent' => $post->ID
+										   'post_parent' => $post->ID,
+										   'exclude'     => get_post_thumbnail_id()
 										  );
 										
 										  $attachments = get_posts( $args );
@@ -67,11 +68,21 @@
 									 <?php }else{ ?>
 									 	
 									 	<?php the_content(); ?>
+									 	
 									 	</div>
 									 <?php }; ?>
 									
+									
+									
+									
+									
 								</section> <!-- end article section -->
-								<?php //comments_template(); ?>
+								<?php if (in_category(5)){   ?>
+							
+									<?php comments_template(); ?>
+								
+								<?php }; ?> 
+								
 								</article> <!-- end article -->
 					
 						<?php endwhile; ?>			

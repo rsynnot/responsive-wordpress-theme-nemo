@@ -60,7 +60,7 @@ $alert-blue:        #d5edf8;
 $black:             #000;
 $white:             #fff;
 $china:				#F5F5F5; 
-$baby:				#f5f7d6;
+$baby:				#F0F0D8;
 $body-base:			#F6F4E9; 
 $body-unicorn:		#FBF8F5; 
 
@@ -84,6 +84,8 @@ $footercopy:		lighten($darkbg, 30%);
 $footer-divider:	lighten($footerbg, 6%);
 $mid-grey:			#878787; 
 $intro-bg:			#D3EBC7; 
+
+$rick-cat-link: 	darken($rick-green, 10%);  
 /*
 Here's a great tutorial on how to
 use color variables properly:

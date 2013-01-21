@@ -27,8 +27,26 @@ if (!window.getComputedStyle) {
     }
 }
 
+
+
 // as the page loads, call these scripts
 jQuery(document).ready(function($) {
+
+
+
+ 		var $container = $('#iso-container');
+      
+      
+    $('#iso-container').waitForImages(function() {
+		// All descendant images have loaded, now slide up.
+      
+      $container.isotope({
+        itemSelector: '.mymasonry'
+      });
+        	
+    });
+
+
 
     /*
     Responsive jQuery is a tricky thing.
@@ -39,6 +57,10 @@ jQuery(document).ready(function($) {
     
     /* getting viewport width */
     var responsive_viewport = $(window).width();
+    //var $iso-container = $('#iso-container');
+    
+      
+       
     
     /* if is below 481px */
     if (responsive_viewport < 481) {
@@ -49,13 +71,7 @@ jQuery(document).ready(function($) {
     if (responsive_viewport > 481) {
         
         
-        /*$(function(){
-          $('#main').masonry({
-            itemSelector: '.mymasonry'
-          });
-        
-        }); */
-        
+                       
         
     } /* end larger than 481px */
     
@@ -115,3 +131,8 @@ jQuery(document).ready(function($) {
 	w.addEventListener( "orientationchange", restoreZoom, false );
 	w.addEventListener( "devicemotion", checkTilt, false );
 })( this );
+
+
+
+   
+

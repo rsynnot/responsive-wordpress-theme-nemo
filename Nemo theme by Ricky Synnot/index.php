@@ -29,7 +29,12 @@
 					
 					<div id="main" class=" clearfix in-wrap" role="main">  
 						<h3 class="sub-header" >Recent Work</h3>  
+					    
+					    
+					    
 					    <!-- set homepage cat choices -->
+					    <div id="iso-container"> 
+					    
 					    <?php query_posts($query_string . '&cat=-5,-1,-6&posts_per_page=8'); ?>
 					    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
@@ -60,10 +65,14 @@
 						    
 						    
 					
-					    <?php endwhile; ?>	
+					    <?php endwhile; ?>
+					    
+					     </div><!-- end iso-container -->
+					    	
 					    	<div class="traverse-nav ">
 					    		<p><?php posts_nav_link('','Previous page','More work &rarr;'); ?> </p>
 					    	</div>
+					    	
 					        <?php if (function_exists('bones_page_navi')) { ?>
 					            <?php //bones_page_navi(); ?>
 					        <?php } else { ?>
@@ -90,7 +99,7 @@
 					        </article>
 					
 					    <?php endif; ?>
-			
+					   
 				    </div> <!-- end #main -->
     
 				    <?php //get_sidebar(); ?>

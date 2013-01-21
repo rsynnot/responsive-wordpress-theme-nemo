@@ -24,7 +24,7 @@ LAYOUT & GRID STYLES
 *********************/
 
 .wrap {
-	max-width: 1140px;
+	max-width: 72em; 
 }
 
 /*********************
@@ -158,16 +158,22 @@ CONTENT STYLES
 	
 }
 
+
 .big-gal {width:100%;  
 	li { text-align: center; }
 	
 }
 
+#disqus_thread {margin-left: $indent-tablet;  width: 75%;  
+	
+}
+
+
 #content {
-	 width:104%; clear:both;  float: left;  
+	 width:104%; clear:both;  float: left;   min-height: 37em;  
 	.work-header {  margin:0 auto; padding-right: 2%;  }
 	
-		.mywork {  margin:0 2% 2em 0; 
+	.mywork {  margin:0 2% 2em 0; 
 		.work-header { width: 100%; margin:0.9em 0 0 0; padding-right: 0%;  text-align: left;   }
 	
 		

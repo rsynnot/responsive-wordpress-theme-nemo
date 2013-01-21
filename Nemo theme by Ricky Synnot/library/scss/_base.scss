@@ -353,6 +353,15 @@ POSTS & CONTENT STYLES
 		a.blog-thumb {display: none; visibility: hidden; }
 		
 	}
+	
+	.post-text {
+		
+		p {
+			a { color: $rick-cat-link;  }
+		}
+	} 
+	
+	
 	.base-space {margin-bottom: 2em !important; }
 }
 

@@ -127,8 +127,14 @@ function bones_scripts_and_styles() {
     // modernizr (without media query polyfill)
     wp_register_script( 'bones-modernizr', get_stylesheet_directory_uri() . '/library/js/libs/modernizr.custom.min.js', array(), '2.5.3', false );
 
-    // masonry (ricky)
+    // RESPOND (for IE) (ricky)
     wp_register_script( 'bones-respond', get_stylesheet_directory_uri() . '/library/js/libs/respond.min.js', array(), '', false );
+    
+    // ISOTOPE (ricky)
+    wp_register_script( 'bones-isotope', get_stylesheet_directory_uri() . '/library/js/libs/jquery.isotope.min.js', array(), '', false );
+    
+    // Wait for Images (ricky)
+    wp_register_script( 'bones-wait', get_stylesheet_directory_uri() . '/library/js/libs/jquery.waitforimages.min.js', array(), '', false );
 
     // register main stylesheet
     wp_register_style( 'bones-stylesheet', get_stylesheet_directory_uri() . '/library/css/style.css', array(), '', 'all' );
@@ -160,9 +166,15 @@ function bones_scripts_and_styles() {
     and your site will load faster.
     */
     wp_enqueue_script( 'jquery' );
+    
+    
+    
+    
     wp_enqueue_script( 'bones-js' );
-
+    
     wp_enqueue_script( 'bones-respond' ); 
+    wp_enqueue_script( 'bones-wait' );
+    wp_enqueue_script( 'bones-isotope' ); 
 
   }
 }
